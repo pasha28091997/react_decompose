@@ -1,6 +1,6 @@
 // import a css file containig header styles
 import './Header.scss';
-import { Navigation } from '../../components/Navigation/Navigation';
+import { Navigation } from '../Navigation/Navigation';
 // Create a Header function returning the HTML of header block
 export const Header = () => (
   <header className="header">
